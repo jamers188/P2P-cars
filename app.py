@@ -74,11 +74,9 @@ def setup_database():
              'Panoramic Sunroof,Heated Seats,Apple CarPlay', 
              's_class.jpg'),
             ('BMW 7 Series', 2024, 549, 'Luxury', 
-             'Massage Seats,Digital Key,5-Zone Climate', 
-             '7_series.jpg'),
+             'Massage Seats,Digital Key,5-Zone Climate'),
             ('Audi Q8', 2023, 599, 'SUV', 
-             'Quattro AWD,Virtual Cockpit,Adaptive Air Suspension', 
-             'q8.jpg')
+             'Quattro AWD,Virtual Cockpit,Adaptive Air Suspension')
         ]
         for car in sample_cars:
             with open(f"images/{car[5]}", "rb") as f:
